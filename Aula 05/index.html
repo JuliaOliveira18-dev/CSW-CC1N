@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05 - Hierarquia de Título</title>
+</head>
+<body>
+    <h1>4 Ferramentas</h1>
+    <h2>4.1 Sobre a Biblioteca</h2>
+    <h3>4.1.1 O Imip</h3>
+    <h3>4.1.2 A Biblioteca Ana Bove</h3>
+    <h2>4.2 Diagnóstico</h2>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h1> Principais formatações </h1>
+    <br>
+    <h2> Negrito / Destaque</h2>
+    <br>
+    <p> Na frase temos uma <b>parte do texto em negrito </b>usando a tag B (não semântica)</p>
+    <p> Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag B (sim semântica)</p>
+    <br>
+    <h2>Itálico / Ênfase</h2>
+    <br>
+    <p>Nesta frase vamos entrar com uma palavra em <i>itálico</i> usando a tag i (não semântica)</p>
+    <p>Nesta frase vamos entrar com uma palavra em <em>itálico</em> usando a tag i (sim semântica)</p>
+    <br>
+    <h2>Texto Marcador</h2>
+    <p>Aqui vamos usar um texto com destaque <mark style="background:green"> de marcador de texto</mark> usando mark</p>
+    <p>Aqui vamos usar um texto com destaque <mark style="background: yellow"> de marcador de texto</mark> usando mark</p>
+    <br>
+    <h2> Texto grande e pequeno </h2>
+    <br>
+    <p>Estamos trabalhando com um <big>texto grande</big> e um <small>texto pequeno</small> nesta frase</p>
+    <br>
+    <h2>Texto Deletado</h2>
+    <br>
+    <p>Neste parágrafo vamos trabalhar com um texto <del>que foi excluído</del> da frase (forma semânica)</p>
+    <br>
+    <h2>Texto inserido</h2>
+    <br>
+    <p>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de não semântica</p>
+    <p>Nesta frase vamos demonstrar como <ins>destacar um texto inserido</ins> na frase semântica</p>
+    <br>
+    <h2>Texto sobrescrito</h2>
+    <br>
+    <p>vamos demonstrar uma formula da equação do segundo grau ax<sup>2</sup> + bx + c = 0 usando tag sup</p>
+    <br>
+    <h2>Texto subescrito</h2>
+    <br>
+    <p>vamos demonstrar o texto subescrito com a formula da agua H<sub>2</sub>O</p>
+    <br>
+    <h2>Trecho de código fonte</h2>
+    <p>// Função para remover o outline de todos os elementos
+        function removeOutline() {
+          // Seleciona todos os elementos da página
+          const elements = document.querySelectorAll('*');
+          
+          // Itera sobre todos os elementos e define outline como none
+          elements.forEach(element => {
+            element.style.outline = 'none';
+          });
+        }
+        
+        // Chama a função para remover o outline
+        removeOutline();
+        </p>
+</body>
+</html>
