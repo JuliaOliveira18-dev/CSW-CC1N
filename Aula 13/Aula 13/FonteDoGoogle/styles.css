@@ -1,4 +1,4 @@
-body {
+main {
     background-image: url("https://mittechreview.com.br/wp-content/uploads/2021/08/trbr_artigo_banner1_26082021.jpg");
 }
 
@@ -26,7 +26,7 @@ p {
     font-style: normal;
 }
 
-main {
+div {
     background-image: radial-gradient(#441861, #1c032c);
     width: 40%;
     left: 50%;
