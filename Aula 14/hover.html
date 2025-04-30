@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 14</title>
+    <style>
+
+        .texto {
+            background-color: lightcyan;
+            text-align: center;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+        }
+
+        .hoverbeaf h1 {
+            color: green;
+            font-size: 2em;
+        }
+
+        .texto p:hover {
+            color: red;
+
+        }
+
+        .texto h2 {
+            color: lightcyan;
+        }
+
+        .texto h2:hover {
+            color: red;
+        }
+
+        .cor {
+            background-color: lightcyan;
+            text-align: center;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+        }
+
+        .cor:hover {background-color:  yellow;}
+
+        .all { display: flex;
+       align-items: center;}
+
+a { color: black; text-decoration: none;} 
+a:hover { color: red;}
+       .beaf a::before { content: ">>"; text-decoration: none; color: grey;}
+       .beaf a::after { content: "[Link]"; text-decoration: none; color: grey;}
+       
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <h1> Exemplo de Hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div class="all">
+       
+        <div class="texto">
+            <p> Passe o mouse AQUI</p>
+            <br>
+            <H2>TEXTO TEXTO TEXTO TEXTO</H2>
+        </div>
+    
+        <div class="cor">
+            <h1> Exemplo de Hover - Cor</h1>
+    
+        </div>
+    </div>
+    
+    <div class="beaf"> 
+        <h2> Exemplo de Before e After</h2>
+        <a href="https://github.com/JuliaOliveira18-dev/CSW-CC1N.git">Repositório do GitHub</a>
+        <br>
+        <a href="https://www.youtube.com/">Canal do youtube</a>
+        <br>
+        <a href="https://uvv.br/">Site da UVV</a>
+    </div>
+
+</body>
+
+</html>
