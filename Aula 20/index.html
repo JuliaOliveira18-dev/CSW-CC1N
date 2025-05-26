@@ -9,19 +9,22 @@
 </head>
 
 <body>
-    <button onclick="loop()">Loop</button>
-    <button onclick="number()">Número</button>
+    <div> <button onclick="loop()">Loop</button>
+        <button onclick="number()">Número</button>
+    </div>
 
-    <input type="number" id="nmr1">
-    <input type="number" id="nmr2">
+    <div> <input type="number" id="nmr1">
+        <input type="number" id="nmr2">
 
-    <select name="operacao" id="operacao">
-        <option value="multiplicação">Multiplicação</option>
-        <option value="Divisão">Divisão</option>
-        <option value="Soma">Soma</option>
-        <option value="Subtração">Subtração</option>
-    </select>
-    <button onclick="calculo()">Calcular</button>
+        <select name="operacao" id="operacao">
+            <option value="multiplicacao" id="multiplicacao">Multiplicação</option>
+            <option value="divisao" id="divisao">Divisão</option>
+            <option value="soma" id="soma">Soma</option>
+            <option value="subtracao" id="subtracao">Subtração</option>
+        </select>
+        <button onclick="calculo()">Calcular</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
